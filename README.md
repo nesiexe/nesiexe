@@ -1,0 +1,4 @@
+- 👋 Hi, I’m Nesi
+- 👀 I’m interested in mechatronics and computer sience
+- 🌱 I’m currently learning Python, arduino, C#
+- 📫 Contact me on twittur (@nesiexe) or by mail! ineedsleem.nesi@gmail.com
