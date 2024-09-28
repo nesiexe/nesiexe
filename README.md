@@ -1,4 +1,4 @@
 - Hi, I’m Nesi
-- I’m study mechatronics and computer sience
+- I study mechatronics and computer sience
 - I’m currently learning Python and webdevelopment
 - Contact me on twitter (@nesiexe) or by mail! ineedsleem.nesi@gmail.com
