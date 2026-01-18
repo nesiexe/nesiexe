@@ -1,4 +1,4 @@
 - Hi, I’m Nesi
-- I study robotics and computer sience (self-thaught)
+- I am getting into robotics and computer sience
 - I’m currently learning Python and webdevelopment
 - Contact me on twitter (@nesiexe) or by mail! ineedsleem.nesi@gmail.com
