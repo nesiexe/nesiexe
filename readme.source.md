@@ -1,6 +1,6 @@
 <div align="center">
 
-``````aura width=860 height=200 link="https://github.com/nesiexe"
+```aura width=860 height=200 link="https://github.com/nesiexe"
 <div style={{
   width: '100%', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center',
   fontFamily: 'Inter', borderRadius: 18, overflow: 'hidden',
@@ -32,29 +32,17 @@
       {github?.user?.bio || 'Put here your bio'}
     </div>
     <div style={{ display: 'flex', flexDirection: 'row', gap: 6, marginTop: 6 }}>
-      {['JavaScript', 'C#', 'SQL', 'Python', 'CSS'].map(function(tag, i) {
-        const tagStyles = [
-          { background: 'rgba(100,210,150,0.12)', border: '1px solid rgba(100,210,150,0.3)', color: '#8de8b8' },
-          { background: 'rgba(120,170,255,0.12)', border: '1px solid rgba(120,170,255,0.3)', color: '#a0c4ff' },
-          { background: 'rgba(100,200,210,0.12)', border: '1px solid rgba(100,200,210,0.3)', color: '#8dd8e8' },
-          { background: 'rgba(190,155,255,0.12)', border: '1px solid rgba(190,155,255,0.3)', color: '#c8aaff' },
-          { background: 'rgba(255,223,155,0.12)', border: '1px solid rgba(190,155,255,0.3)', color: '#ffe4aa' },
-        ];
-        return (
-          <div key={tag} style={{
-            display: 'flex', alignItems: 'center',
-            padding: '4px 13px', borderRadius: 20,
-            fontSize: 12, fontWeight: 600,
-            ...tagStyles[i]
-          }}>{tag}</div>
-        );
-      })}
+      <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(100,210,150,0.12)', border: '1px solid rgba(100,210,150,0.3)', color: '#8de8b8' }}>JavaScript</div>
+      <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(120,170,255,0.12)', border: '1px solid rgba(120,170,255,0.3)', color: '#a0c4ff' }}>C#</div>
+      <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(100,200,210,0.12)', border: '1px solid rgba(100,200,210,0.3)', color: '#8dd8e8' }}>SQL</div>
+      <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(190,155,255,0.12)', border: '1px solid rgba(190,155,255,0.3)', color: '#c8aaff' }}>Python</div>
+      <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(255,223,155,0.12)', border: '1px solid rgba(255,223,155,0.3)', color: '#ffe4aa' }}>CSS</div>
     </div>
   </div>
 </div>
-` ``
+```
 
-`````aura width=150 height=44 link="https://card.nesiexe.xyz" inline align=center
+```aura width=150 height=44 link="https://card.nesiexe.xyz" inline align=center
 <SocialMediaButton
   icon="https://nesiexe.xyz/card/assets/nesi.png"
   text="My Card!"
@@ -71,9 +59,9 @@
   ]}
   iconSize="30"
 />
-` ``
+```
 
-````aura width=150 height=44 link="https://t.me/nesiexe" inline align=center
+```aura width=150 height=44 link="https://t.me/nesiexe" inline align=center
 <SocialMediaButton
   icon="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
   text="Telegram"
@@ -90,7 +78,7 @@
   ]}
   iconSize="30"
 />
-` ``
+```
 
 ```aura width=150 height=44 link="https://x.com/nesiexe" inline align=center
 <SocialMediaButton
@@ -109,12 +97,6 @@
   ]}
   iconSize="28"
 />
-` ``
-
-</div>
 ```
 
-The changes from your version:
-- All three buttons now have `inline align=center` on their headers so they sit side by side
-- All button `width` props unified to `150` to match the block headers
-- Everything wrapped in `<div align="center">` so it's all centered on your profile page
+</div>
