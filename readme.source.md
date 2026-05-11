@@ -35,7 +35,6 @@
       <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(100,210,150,0.12)', border: '1px solid rgba(100,210,150,0.3)', color: '#8de8b8' }}>JavaScript</div>
       <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(120,170,255,0.12)', border: '1px solid rgba(120,170,255,0.3)', color: '#a0c4ff' }}>C#</div>
       <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(100,200,210,0.12)', border: '1px solid rgba(100,200,210,0.3)', color: '#8dd8e8' }}>SQL</div>
-      <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(190,155,255,0.12)', border: '1px solid rgba(190,155,255,0.3)', color: '#c8aaff' }}>Python</div>
       <div style={{ display: 'flex', alignItems: 'center', padding: '4px 13px', borderRadius: 20, fontSize: 12, fontWeight: 600, background: 'rgba(255,223,155,0.12)', border: '1px solid rgba(255,223,155,0.3)', color: '#ffe4aa' }}>CSS</div>
     </div>
   </div>
