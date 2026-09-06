@@ -44,7 +44,7 @@
 
 ```aura width=150 height=44 link="https://card.nesiexe.xyz" inline align=center
 <SocialMediaButton
-  icon="https://nesiexe.xyz/card/assets/nesi.png"
+  icon="https://card.nesiexe.xyz/assets/nesi.png"
   text="My Card!"
   backgroundColor="#111111"
   width={150}
