@@ -61,23 +61,4 @@
 />
 ```
 
-```aura width=150 height=44 link="https://t.me/nesiexe" inline align=center
-<SocialMediaButton
-  icon="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
-  text="Telegram"
-  backgroundColor="#111111"
-  width={150}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#29b6f6' },
-    { offset: '60%', color: '#81d4fa' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-  iconSize="30"
-/>
-```
-
 </div>
