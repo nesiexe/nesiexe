@@ -42,10 +42,10 @@
 </div>
 ```
 
-```aura width=150 height=44 link="https://card.nesiexe.xyz" inline align=center
+```aura width=150 height=44 link="https://www.peterwoz.pl" inline align=center
 <SocialMediaButton
-  icon="https://card.nesiexe.xyz/nesi.png"
-  text="My Card!"
+  icon="https://peterwoz.pl/favicon.svg"
+  text="My Site"
   backgroundColor="#111111"
   width={150}
   height={44}
@@ -77,25 +77,6 @@
     { offset: '100%', color: '#555555' },
   ]}
   iconSize="30"
-/>
-```
-
-```aura width=150 height=44 link="https://x.com/nesiexe" inline align=center
-<SocialMediaButton
-  icon="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg"
-  text="X"
-  backgroundColor="#111111"
-  width={150}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#e0e0e0' },
-    { offset: '60%', color: '#9e9e9e' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-  iconSize="28"
 />
 ```
 
